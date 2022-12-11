@@ -1,0 +1,35 @@
+.btn{
+    padding: 15px 25px;
+    text-transform: uppercase;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+.btn-red:hover {
+    background-color: rgb(223, 12, 12);
+}
+
+.btn-blue {
+    background-color: rgb(69, 69, 223);
+    color: white;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    border-radius: 15px;
+}
+
+.btn-blue:hover {
+    background-color: blue;
+}
+
+.bouttons {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+

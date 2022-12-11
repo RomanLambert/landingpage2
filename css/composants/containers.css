@@ -1,0 +1,26 @@
+.container {
+    margin: 0 50px;
+}
+
+@media all and (max-width: 900px) {
+    .container {
+        margin: 0 50px;
+    }
+    
+}
+
+@media all and (max-width: 700px) {
+    .container {
+        margin: 0 10px;
+    }
+    
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}

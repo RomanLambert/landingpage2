@@ -1,0 +1,64 @@
+@import url(composants/bouttons.css);
+@import url(composants/containers.css);
+@import url(composants/avatars.css);
+@import url(composants/banner.css);
+@import url(composants/cards.css);
+
+a {
+    text-decoration: none;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+nav{
+    background-color: rgb(50, 46, 46);
+    color: white;   
+}
+
+body{
+    padding:0;
+    margin: 0;
+}
+
+
+nav h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a {
+    display:flex;
+    justify-content: flex-end;
+}
+
+nav div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.creations{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Appart{
+    width: 50%;
+}
+
+.Decor{
+    width:50%
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+}
+
+
